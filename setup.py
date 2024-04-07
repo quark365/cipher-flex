@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='cipher-flex',
+    name='cipher_flex',
     version='0.1',
     packages=find_packages(),
     license='MIT',
@@ -10,7 +10,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Adithya Krishna S',
     author_email='quark365microbot@outlook.com',
-    url='https://github.com/your-username/cipher-flex',
+    url='https://github.com/quark365/cipher_flex',
     keywords=['encryption', 'decryption', 'security'],
     classifiers=[
         'Development Status :: 3 - Alpha',
