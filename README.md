@@ -1,13 +1,13 @@
-# cipher-flex
+# cipher_flex
 
-cipher-flex is a Python package for medium-level encryption and decryption.
+cipher_flex is a Python package for medium-level encryption and decryption.
 
 ## Installation
 
 You can install the package using pip:
 
 ```bash
-pip install git+https://github.com/your-username/cipher-flex.git
+pip install git+https://github.com/quark365/cipher_flex.git
 ```
 
 ## Usage
