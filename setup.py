@@ -1,44 +1,27 @@
 from setuptools import setup, find_packages
 
-# Package metadata
-NAME = 'CipherFlex'
-VERSION = '1.0.0'
-DESCRIPTION = 'Python package for medium encryption and decryption'
-AUTHOR = 'Your Name'
-EMAIL = 'your.email@example.com'
-URL = 'https://github.com/your-username/CipherFlex'
-LICENSE = 'MIT'
-KEYWORDS = ['encryption', 'decryption', 'security']
-PYTHON_REQUIRES = '>=3.6'  # Minimum Python version required
-
-# Read the README file for the long description
-with open('README.md', 'r') as readme_file:
-    long_description = readme_file.read()
-
-# Define the dependencies
-install_requires = []
-
-# Define the entry points (optional)
-entry_points = {
-    'console_scripts': [
-        'cipherflex-cli = CipherFlex.cli:main',  # Replace CipherFlex.cli with your CLI module
-    ],
-}
-
-# Setup configuration
 setup(
-    name=NAME,
-    version=VERSION,
-    description=DESCRIPTION,
-    long_description=long_description,
-    long_description_content_type='text/markdown',
-    author=AUTHOR,
-    author_email=EMAIL,
-    url=URL,
-    license=LICENSE,
-    keywords=KEYWORDS,
-    python_requires=PYTHON_REQUIRES,
+    name='cipher-flex',
+    version='0.1',
     packages=find_packages(),
-    install_requires=install_requires,
-    entry_points=entry_points,
-)
+    license='MIT',
+    description='Python package for medium encryption and decryption',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    author='Adithya Krishna S',
+    author_email='quark365microbot@outlook.com',
+    url='https://github.com/your-username/cipher-flex',
+    keywords=['encryption', 'decryption', 'security'],
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+    ],
+) 
