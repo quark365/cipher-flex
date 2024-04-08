@@ -1,5 +1,5 @@
 # test_cipher_flex.py
-from CipherFlex import CipherFlex
+from CipherFlex import CipherFlex 
 
 def test_encrypt_decrypt():
     encryption = CipherFlex()
