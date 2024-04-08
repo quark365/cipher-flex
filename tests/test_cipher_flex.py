@@ -1,4 +1,7 @@
 # test_cipher_flex.py
+import random
+
+import pytest
 from CipherFlex import CipherFlex 
 
 def test_encrypt_decrypt():
